@@ -25,7 +25,7 @@ const Navbar = () => {
     <div className='flex gap-3'>
     <div className='hidden md:flex md:flex-col'>
     <p className='font-semibold text-black'>Anima Agarwal</p>
-    <p className='text-gray-500'>U.P, India</p>
+    <p className='text-gray-500'>U.P., India</p>
     </div>
     <img src={woman} className='rounded-full w-10 h-10' onClick={()=>{setShow(!show)}}/>
     {show && <div className='absolute top-16 right-0 bg-white rounded-md shadow-md p-5 flex flex-col'>
