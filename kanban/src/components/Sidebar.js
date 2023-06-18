@@ -5,6 +5,7 @@ import {BsThreeDots} from 'react-icons/bs'
   import { TaskSquare,Element3,Setting2,Message,Profile2User ,ArrowRight2} from 'iconsax-react'  ;
   import purple from "../assets/purple_icon.png";
   import bulb from "../assets/bulb.png";
+  import {AddSquare} from 'iconsax-react';
 const Sidebar = () => {
   return (
     <div>
@@ -65,7 +66,10 @@ const Sidebar = () => {
             {/*new section */}
             <div className="flex flex-col justify-start item-center">
             <div className=" ">
+            <div className='flex justify-between'>
             <h1 className='text-md text-[#787486] group-hover:text-gray-900 font-semibold text-left'>MY PROJECTS</h1>
+            <AddSquare size="16" className="text-2xl text-[#787486] group-hover:text-gray-900 "/>
+            </div>
               <div className="flex mb-1 justify-start items-center gap-2 pl-5 hover:bg-[#E6E6FA] p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
               <div className='w-2 h-2 p-1 rounded-full bg-green-300'></div>
                 <h3 className="text-base text-[#787486] group-hover:text-gray-900 font-semibold mr-5 ">
