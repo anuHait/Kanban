@@ -64,7 +64,7 @@ const Sidebar = () => {
             </div>
             </div>
             {/*new section */}
-            <div className="flex flex-col justify-start item-center">
+            <div className="flex flex-col justify-start ">
             <div className=" ">
             <div className='flex justify-between'>
             <h1 className='text-md text-[#787486] group-hover:text-gray-900 font-semibold text-left'>MY PROJECTS</h1>
