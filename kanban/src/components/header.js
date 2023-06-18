@@ -43,7 +43,7 @@ const Header = () => {
     <FaChevronDown className='mt-1 text-gray-500'/>
     </button>
     <button onClick={handleIconClick} className='border-gray-400 border-2 flex flex-row p-1 gap-3 rounded-md'>
-    <Calendar1 size="24" className='text-gray-500 font-semibold'/>
+    <Calendar1 size="20" className='text-gray-500 font-semibold'/>
     <span className='text-gray-500 font-semibold'>Today</span>
     <FaChevronDown className='mt-1 text-gray-500'/>
   </button>
