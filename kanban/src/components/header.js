@@ -10,7 +10,7 @@ import blue from '../assets/blue_icon.png'
 import bubble from '../assets/bubble.png'
 import people from '../assets/people.png'
 import link from '../assets/link.png'
-import {Profile2User} from 'iconsax-react';
+import {Profile2User,AddSquare} from 'iconsax-react';
 const Header = () => {
     const [selectedDate, setSelectedDate] = useState(new Date());
     const [showCalendar, setShowCalendar] = useState(false);
@@ -31,8 +31,8 @@ const Header = () => {
     <img src={link} className='w-6 h-6'/>
     </div>
     <div className='flex flex-row gap-2 justify-end items-center'>
-    <img src={plus} className='w-5 h-5'/>
-    <span className='text-purple-800 font-semibold'>Invite</span>
+    <AddSquare size="24" className="text-purple-800"/>
+        <span className='text-purple-800 font-semibold'>Invite</span>
     <img src={people} className='w-36 h-10 p-1'/>
     </div>
     </div>
